@@ -67,3 +67,29 @@ color: #202124;
 .ket {
     padding-left: 0px;
 }
+
+.comProgram .badge {
+    padding: 4px 16px;
+    color: rgba(52, 52, 52, 0.5);
+    margin-bottom: 8px;
+}
+
+.badge.umum {
+    background-color: #FF6DA2 !important;
+}
+
+.badge.ramadhan {
+    background-color: #1CD1A1 !important;
+}
+
+.badge.pembangunan {
+    background-color: #F3CC91 !important;
+}
+
+.badge.pendidikan {
+    background-color: #91E1F3 !important;
+}
+
+.badge.kesehatan {
+    background-color: #F39791 !important;
+}
