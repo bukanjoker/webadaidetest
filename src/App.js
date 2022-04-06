@@ -30,7 +30,27 @@ const App = () => {
               <p>Bantuan Sesama Sekarang</p>
             </div>
             <div>
-              <ProgramAvailable />
+              <ProgramAvailable
+                title="Buka Puasa Sehat untuk Pejuang Jalanan Bandung"
+                type="Umum"
+                progress={60}
+                dana="43.768.000"
+                sisaHari={29}
+              />
+              <ProgramAvailable
+                title="Buka Puasa Sehat untuk Pejuang Jalanan Bandung"
+                type="Ramadhan"
+                progress={90}
+                dana="43.768.000"
+                sisaHari={29}
+              />
+              <ProgramAvailable
+                title="Buka Puasa Sehat untuk Pejuang Jalanan Bandung"
+                type="Pendidikan"
+                progress={30}
+                dana="43.768.000"
+                sisaHari={29}
+              />
               <div className="more">Muat Lebih Banyak</div>
             </div>
           </div>
